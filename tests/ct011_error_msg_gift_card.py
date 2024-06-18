@@ -8,6 +8,5 @@ def test_price_over(driver):
     home_page = HomePage(driver)
     home_page.open_gift_page()
     giftCard.click_add_to_cart()
-    time.sleep(2)
     giftCard.valida_campos()
 

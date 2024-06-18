@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05e10a1-8a4e-432a-ad8a-a954bd606046" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/ListPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ReviewPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/SelectViewPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ViewBookPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/WishlistPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/books_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/giftCard_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/search_results_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/shopping_cart_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CT005_test_excluir_produto_carrinho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/after_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/before_selecting_option.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct001_test_books_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct002_test_add_product_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct003_test_search_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct004_test_add_product_to_cart_and_apply_coupon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct007_test_add_avalia_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct008_add_poduct_list_wishes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct009_valid_check_product_lis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct010_filter_price_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ct011_error_msg_gift_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixture.py" afterDir="false" />
-    </list>
+    <list default="true" id="d05e10a1-8a4e-432a-ad8a-a954bd606046" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
