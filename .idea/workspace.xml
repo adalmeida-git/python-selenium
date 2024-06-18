@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d05e10a1-8a4e-432a-ad8a-a954bd606046" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AutomacaoDemoWebshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ListPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ReviewPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/SelectViewPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ViewBookPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/WishlistPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/books_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/giftCard_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search_results_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/shopping_cart_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CT005_test_excluir_produto_carrinho.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/after_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/before_selecting_option.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct001_test_books_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct002_test_add_product_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct003_test_search_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct004_test_add_product_to_cart_and_apply_coupon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct007_test_add_avalia_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct008_add_poduct_list_wishes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct009_valid_check_product_lis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct010_filter_price_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ct011_error_msg_gift_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixture.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +52,41 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tests/conftest.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gxlXIIYz6ERnq9NWx49qQodybp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for Test_1.Test1.executor": "Run",
+    "Python tests.Python tests for ct001_test_books_page.test_books_page.executor": "Run",
+    "Python tests.Python tests for ct003_test_search_product.test_search_product.executor": "Run",
+    "Python tests.Python tests for ct004_test_add_product_to_cart_and_apply_coupon.test_add_product_to_cart_and_apply_coupon.executor": "Run",
+    "Python tests.Python tests for ct007_test_add_avalia_product.TestAvaliacaoEWishlistDoProduto.test_adicionar_avaliacao.executor": "Run",
+    "Python tests.Python tests for ct007_test_add_avalia_product.test_adicionar_avaliacao.executor": "Run",
+    "Python tests.Python tests for ct008_add_poduct_list_wishes.TestWishlistDoProduto.executor": "Run",
+    "Python tests.Python tests for ct008_add_poduct_list_wishes.TestWishlistDoProduto.test_lista_desejos.executor": "Run",
+    "Python tests.Python tests for ct009_valid_check_product_lis.TestFiltro.executor": "Run",
+    "Python tests.Python tests for ct010_filter_price_product.test_filter_price.executor": "Run",
+    "Python tests.Python tests for ct010_filter_price_product.test_price_over.executor": "Run",
+    "Python tests.Python tests for ct011_error_msg_gift_card.test_price_over.executor": "Run",
+    "Python tests.Python tests for fixture.Test1.test_add_carrinho.executor": "Run",
+    "Python tests.Python tests for fixture.Test1.test_open_home.executor": "Run",
+    "Python tests.Python tests for fixture.Test1.test_pesquisa_produto_pagina_inicial.executor": "Run",
     "Python tests.Python tests for fixture.Test1.test_quanti_prod.executor": "Run",
+    "Python tests.Python tests for fixture.Test1.test_size_books.executor": "Run",
     "Python tests.Python tests for fixture.test_open_home.executor": "Run",
     "Python tests.Python tests for test1.Test1.executor": "Run",
+    "Python tests.Python tests for test_07.TestAvaliacaoEWishlistDoProduto.executor": "Run",
+    "Python tests.Python tests for test_07.TestAvaliacaoEWishlistDoProduto.test_adicionar_avaliacao.executor": "Run",
     "Python tests.Python tests in fixture.py.executor": "Run",
     "Python tests.Python tests in test_1.py.executor": "Run",
     "Python.Conftest.executor": "Run",
@@ -57,11 +95,18 @@
     "Python.fixture.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/git_public/python-selenium/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for fixture.Test1.test_quanti_prod">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_public\python-selenium\tests" />
+      <recent name="C:\git_public\python-selenium\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for ct011_error_msg_gift_card.test_price_over">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AutomacaoDemoWebshop" />
       <option name="ENV_FILES" value="" />
@@ -84,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for fixture.Test1.test_quanti_prod" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ct004_test_add_product_to_cart_and_apply_coupon.test_add_product_to_cart_and_apply_coupon" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoDemoWebshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +140,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;fixture.Test1.test_quanti_prod&quot;" />
+      <option name="_new_target" value="&quot;ct004_test_add_product_to_cart_and_apply_coupon.test_add_product_to_cart_and_apply_coupon&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for fixture.test_open_home" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ct008_add_poduct_list_wishes.TestWishlistDoProduto" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoDemoWebshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +155,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;fixture.test_open_home&quot;" />
+      <option name="_new_target" value="&quot;ct008_add_poduct_list_wishes.TestWishlistDoProduto&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test1.Test1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ct009_valid_check_product_lis.TestFiltro" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoDemoWebshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +170,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.Test1&quot;" />
+      <option name="_new_target" value="&quot;ct009_valid_check_product_lis.TestFiltro&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.fixture" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for ct010_filter_price_product.test_price_over" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoDemoWebshop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,23 +185,39 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.fixture&quot;" />
+      <option name="_new_target" value="&quot;ct010_filter_price_product.test_price_over&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for ct011_error_msg_gift_card.test_price_over" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomacaoDemoWebshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ct011_error_msg_gift_card.test_price_over&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for fixture.Test1.test_quanti_prod" />
-        <item itemvalue="Python tests.Python tests for fixture.test_open_home" />
-        <item itemvalue="Python tests.Python tests for tests.fixture" />
-        <item itemvalue="Python tests.Python tests for test1.Test1" />
+        <item itemvalue="Python tests.Python tests for ct011_error_msg_gift_card.test_price_over" />
+        <item itemvalue="Python tests.Python tests for ct004_test_add_product_to_cart_and_apply_coupon.test_add_product_to_cart_and_apply_coupon" />
+        <item itemvalue="Python tests.Python tests for ct010_filter_price_product.test_price_over" />
+        <item itemvalue="Python tests.Python tests for ct008_add_poduct_list_wishes.TestWishlistDoProduto" />
+        <item itemvalue="Python tests.Python tests for ct009_valid_check_product_lis.TestFiltro" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -170,6 +231,9 @@
       <updated>1716647147717</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
